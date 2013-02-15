@@ -1,0 +1,105 @@
+
+camera.default.so:     file format elf32-little
+camera.default.so
+architecture: UNKNOWN!, flags 0x00000150:
+HAS_SYMS, DYNAMIC, D_PAGED
+start address 0x00000000
+
+Program Header:
+    PHDR off    0x00000034 vaddr 0x00000034 paddr 0x00000034 align 2**2
+         filesz 0x000000c0 memsz 0x000000c0 flags r--
+    LOAD off    0x00000000 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00029cd0 memsz 0x00029cd0 flags r-x
+    LOAD off    0x0002a000 vaddr 0x0002a000 paddr 0x0002a000 align 2**12
+         filesz 0x00000ee0 memsz 0x0000150c flags rw-
+ DYNAMIC off    0x0002a610 vaddr 0x0002a610 paddr 0x0002a610 align 2**2
+         filesz 0x00000128 memsz 0x00000128 flags rw-
+   STACK off    0x00000000 vaddr 0x00000000 paddr 0x00000000 align 2**0
+         filesz 0x00000000 memsz 0x00000000 flags rw-
+0x70000001 off    0x00029608 vaddr 0x00029608 paddr 0x00029608 align 2**2
+         filesz 0x000006c8 memsz 0x000006c8 flags r--
+
+Dynamic Section:
+  PLTGOT               0x0002a9d0
+  PLTRELSZ             0x000006a0
+  JMPREL               0x0000b754
+  PLTREL               0x00000011
+  REL                  0x0000bdf4
+  RELSZ                0x00000d78
+  RELENT               0x00000008
+  RELCOUNT             0x000000c7
+  SYMTAB               0x00001434
+  SYMENT               0x00000010
+  STRTAB               0x00004084
+  STRSZ                0x000076d0
+  HASH                 0x000000f4
+  NEEDED               libutils.so
+  NEEDED               libui.so
+  NEEDED               liblog.so
+  NEEDED               libskia.so
+  NEEDED               libcamera_client.so
+  NEEDED               libcutils.so
+  NEEDED               libgenlock.so
+  NEEDED               libbinder.so
+  NEEDED               libdl.so
+  NEEDED               libcamerapp.so
+  NEEDED               libgui.so
+  NEEDED               libcameraface.so
+  NEEDED               libc.so
+  NEEDED               libstdc++.so
+  NEEDED               libm.so
+  SONAME               camera.default.so
+  INIT_ARRAY           0x0002a000
+  INIT_ARRAYSZ         0x00000010
+  FINI_ARRAY           0x0002a010
+  FINI_ARRAYSZ         0x0000000c
+  TEXTREL              0x00000000
+  SYMBOLIC             0x00000000
+  FLAGS                0x00000006
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .hash         00001340  000000f4  000000f4  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .dynsym       00002c50  00001434  00001434  00001434  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .dynstr       000076d0  00004084  00004084  00004084  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .rel.plt      000006a0  0000b754  0000b754  0000b754  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .rel.dyn      00000d78  0000bdf4  0000bdf4  0000bdf4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .plt          00000a04  0000cb6c  0000cb6c  0000cb6c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .text         00013d88  0000d570  0000d570  0000d570  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .rodata       00008298  000212f8  000212f8  000212f8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .ARM.extab    00000078  00029590  00029590  00029590  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .ARM.exidx    000006c8  00029608  00029608  00029608  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .init_array   00000010  0002a000  0002a000  0002a000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .fini_array   0000000c  0002a010  0002a010  0002a010  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .data.rel.ro  000005f0  0002a020  0002a020  0002a020  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .dynamic      00000128  0002a610  0002a610  0002a610  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 14 .got          000005f4  0002a738  0002a738  0002a738  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .data         000001b4  0002ad2c  0002ad2c  0002ad2c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .bss          0000062c  0002aee0  0002aee0  0002aee0  2**4
+                  ALLOC
+ 17 .comment      00000012  00000000  00000000  0002aee0  2**0
+                  CONTENTS, READONLY
+ 18 .note.gnu.gold-version 00000018  00000000  00000000  0002aef4  2**2
+                  CONTENTS, READONLY
+ 19 .ARM.attributes 0000003a  00000000  00000000  0002af0c  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+no symbols
+
+
